@@ -52,5 +52,5 @@ jobs:
           build-args: |
             PACKAGE_VERSION=${{ env.PACKAGE_VERSION }}
           tags: |
-            notwind:${{ env.PACKAGE_VERSION }}
-            notwind:latest
+            notwind/immich-public-proxy:${{ env.PACKAGE_VERSION }}
+            notwind/immich-public-proxy:latest
